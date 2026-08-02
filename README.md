@@ -30,6 +30,7 @@ We think this matters for judging, so here it is plainly:
 - **Everything the agent reads** (lineage, schema, past incidents) is a **real, live call** to a running DataHub instance via its MCP Server
 - **Everything the agent writes** (incidents, on real assets) is a **real write** to DataHub's native Incidents API — checkable by anyone with access to the DataHub instance, independent of this app
 
+## Architecture
 ![Architecture](docs/architecture.png)
 
 ## How it works
