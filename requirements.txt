@@ -1,0 +1,10 @@
+streamlit
+requests
+python-dotenv
+mcp
+mcp-server-datahub
+openai
+pandas
+
+# Also needed separately for DataHub setup (CLI commands, not imported by app.py):
+# pip install acryl-datahub
